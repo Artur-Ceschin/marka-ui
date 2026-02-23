@@ -1,1 +1,9 @@
 node_modules
+dist
+.turbo
+
+# Lock files at package level (only root pnpm-lock.yaml is tracked)
+packages/*/package-lock.json
+
+# OS
+.DS_Store

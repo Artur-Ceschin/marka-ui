@@ -6,6 +6,5 @@ export default defineConfig({
   dts: true,
   sourcemap: true,
   clean: true,
-  external: ['react', 'react-dom', '@marka/tokens'],
-  injectStyle: false,
+  external: ['react', 'react-native', '@marka/tokens'],
 })
