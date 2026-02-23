@@ -18,7 +18,7 @@
   ],
   "scripts": {
     "dev": "storybook dev -p 6006",
-    "build": "tsup",
+    "build": "tsup && tailwindcss -i ./src/styles.css -o ./dist/styles.css --minify",
     "build-storybook": "storybook build",
     "typecheck": "tsc --noEmit",
     "lint": "eslint src",
